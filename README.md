@@ -13,7 +13,7 @@ This was created using HTML5, CSS3 and JavaScript, including CSS animation featu
 * Ethan Marcotte's book [Responsive Web Design](https://abookapart.com/products/responsive-web-design) for much-needed advice on using media queries
 * With thanks to [John Paul Davis](http://www.johnpauldavis.org/) for helping me fine-tune my JavaScript
 
-## Still Coming Throughout 2016
+## Still Coming
 
 * Fancy jQueryUI interface for interacting with the archives
 * Better search result page
