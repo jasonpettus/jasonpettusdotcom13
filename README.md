@@ -6,7 +6,7 @@ I've posted two versions of the code; one is formatted as a standalone "static" 
 This was created using HTML5, CSS3 and JavaScript, including CSS animation features. It was designed responsively to present different layouts on cellphone, tablet, laptop/desktop, media center on a television, and printed onto paper; see the CSS specs for more. It relies on the following third-party services and tutorials...
 
 * [Google Web Fonts](https://www.google.com/fonts) for providing the typefaces
-* [DTelepathy](http://www.dtelepathy.com) for inspiration with the color palette
+* [Digital Telepathy](http://www.dtelepathy.com) for inspiration with the color palette
 * [jQuery](https://jquery.com/) to simplify and automate part of the JavaScript
 * [scrollMonitor](https://github.com/stutrek/scrollMonitor), a JS library that simplifies the tracking of DOM elements as they scroll; and [this tutorial](http://creative-punch.net/2014/03/making-scroll-dependent-menu-bar-css3-javascript/) by Creative Punch on how to implement it
 * [This tutorial](http://www.webdesignerdepot.com/2013/07/how-to-create-a-simple-parallax-effect/) by Sara Vieiera of Web Designer Depot on how to properly code a parallax scroll function in JavaScript and CSS
