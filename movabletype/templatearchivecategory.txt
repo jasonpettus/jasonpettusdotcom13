@@ -1,0 +1,18 @@
+<$mt:Include module="StandaloneMod1"$>
+
+<title>Jason Pettus | [<$mt:ArchiveTitle$>] archives</title>
+
+<$mt:Include module="StandaloneMod2"$>
+
+<div class="headline">Archives: [<$mt:ArchiveTitle$>]</div>
+
+<$mt:Include module="StandaloneMod3"$>
+
+<p>This is the archive page for the category <b>[<$mt:ArchiveTitle$>]</b>; below you should see headlines and summaries of all entries found here on the subject. Click the appropriate link at each to read the entire entry.</p>
+
+<mt:Entries>
+  <p><b><a href="<$mt:EntryPermalink$>"><$mt:EntryTitle$></a></b> | <$mt:EntryDate format="%x"$><br>
+  <$mt:EntryExcerpt$></p>
+</mt:Entries>
+
+<$mt:Include module="StandaloneMod4"$>

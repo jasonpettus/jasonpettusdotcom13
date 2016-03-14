@@ -1,0 +1,293 @@
+/* --------------------------------------------------------------- The seven colors of my palette    */
+/* --------------------------------------------------------------- Osaki pattern from dtelepathy.com */
+
+.porange {   color: #ff9900; }
+.pumber {    color: #cc6600; }
+.plime {     color: #999900; }
+.pgreen {    color: #333300; }
+.ppink {     color: #ff00ff; }
+.ppurple {   color: #660066; }
+.poffwhite { color: #cccccc; }
+
+/* --------------------------------------------------------------- General specs */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+p {
+  color: #333333;
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.66em;
+  text-align: left;
+}
+
+p b { font-weight: 700; }
+
+a:link {    color: #cc6600; text-decoration: underline; }
+a:visited { color: #cc6600; }
+a:hover {   color: #ff9900; }
+a:active {  color: #ffffff; }
+
+ul { text-align: left; }
+
+form { display: inline; }
+
+/* --------------------------------------------------------------- All other typefaces */
+
+.headline {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+.subhead {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  word-spacing: 0.5em;
+}
+
+.subhead b { font-weight: 700; }
+
+.fineprint {
+  color: #cccccc;
+  background-color: #333300;
+  font-size: .75em;
+  padding: 1em;
+}
+
+/* --------------------------------------------------------------- Page sections */
+
+#splash {
+  width: 100%;
+  height: 100%;
+  color: #cccccc;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: url("archives/skyline.jpg") no-repeat center center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.vert-align {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+#menu {
+  background-color: #333300;
+  color: #666600;
+  padding: 0.25em;
+}
+
+#menu.fixed {
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#menu a:link {    color: #666600; text-decoration: none; }
+#menu a:visited { color: #666600; }
+#menu a:hover {   color: #999900; }
+#menu a:active {  color: #ffffff; }
+
+#content { background-color: #cccccc; padding: 1em 25% 1em 25%; }
+#sidebar { background-color: #cccccc; }
+
+.alert {           margin: auto; width: 50%; padding: 0.5em; }
+.alert .headline { font-size: 2em; }
+.alert a:link {    text-decoration: none; }
+
+.one {             color: #cc6600; background-color: #ff9900; }
+.one a:link {      color: #cc6600; }
+.one a:visited {   color: #cc6600; }
+.one a:hover {     color: #ffffff; }
+
+.two {             color: #ff9900; background-color: #cc6600; }
+.two a:link {      color: #ff9900; }
+.two a:visited {   color: #ff9900; }
+.two a:hover {     color: #ffffff; }
+
+.three {           color: #333300; background-color: #999900; }
+.three a:link {    color: #333300; }
+.three a:visited { color: #333300; }
+.three a:hover {   color: #ffffff; }
+
+.four {            color: #999900; background-color: #333300; }
+.four a:link {     color: #999900; }
+.four a:visited {  color: #999900; }
+.four a:hover {    color: #ffffff; }
+
+.five {            color: #660066; background-color: #ff00ff; }
+.five a:link {     color: #660066; }
+.five a:visited {  color: #660066; }
+.five a:hover {    color: #ffffff; }
+
+.six {             color: #ff00ff; background-color: #660066; }
+.six a:link {      color: #ff00ff; }
+.six a:visited {   color: #ff00ff; }
+.six a:hover {     color: #ffffff; }
+
+/* --------------------------------------------------------------- Animations */
+
+.arrow-blink {
+  -webkit-animation: blink 3s infinite;
+  animation: blink 3s infinite;
+}
+
+@-webkit-keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% {      opacity: 0; }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% {      opacity: 0; }
+}
+
+.trigger-left {
+  -webkit-animation: slideleft 0.4s ease;
+  animation: slideleft 0.4s ease;
+}
+
+.trigger-right {
+  -webkit-animation: slideright 0.4s ease;
+  animation: slideright 0.4s ease;
+}
+
+@-webkit-keyframes slideleft {
+  from { margin-left: 0%; margin-right: 50%;  }
+  to {   margin-left: 25%; margin-right: 25%; }
+}
+
+@keyframes slideleft {
+  from { margin-left: 0%; margin-right: 50%;  }
+  to {   margin-left: 25%; margin-right: 25%; }
+}
+
+@-webkit-keyframes slideright {
+  from { margin-right: 0%; margin-left: 50%;  }
+  to {   margin-right: 25%; margin-left: 25%; }
+}
+
+@keyframes slideright {
+  from { margin-right: 0%; margin-left: 50%;  }
+  to {   margin-right: 25%; margin-left: 25%; }
+}
+
+/* --------------------------------------------------------------- Just for phones */
+
+@media screen and (max-width: 736px) {
+  img {             width: 100%; }
+  .headline {       font-size: 1.66em; }
+  .subhead {        letter-spacing: 0em; }
+  .fineprint {      font-size: 0.8em; }
+  .alert .headline {font-size: 1.5em; }
+  #content {        padding: 1em; }
+  .alert {          width: auto; }
+  .bg {             background: url("archives/skylinephone.jpg") no-repeat center center;}
+  .arrow-blink {    width: 50%; }
+  @-webkit-keyframes slideleft {  from { margin-left: 0%; } to { margin-left: 0%; } }
+  @keyframes slideleft {          from { margin-left: 0%; } to { margin-left: 0%; } }
+  @-webkit-keyframes slideright { from { margin-left: 0%; } to { margin-left: 0%; } }
+  @keyframes slideright {         from { margin-left: 0%; } to { margin-left: 0%; } }
+}
+
+@media screen and (max-width: 736px) and (orientation: portrait) {
+  p {        font-size: 1.2em; }
+  .subhead { font-size: 1em; }
+}
+
+@media screen and (max-width: 736px) and (orientation: landscape) {
+  p {        font-size: 0.9em; }
+  .subhead { font-size: 0.75em; }
+}
+
+/* --------------------------------------------------------------- Just for tablets */
+
+@media screen and (min-width: 737px) and (max-width: 1024px) {
+  #content { padding: 1em 15% 1em 15%; }
+  .alert {   width: 70%;}
+  @-webkit-keyframes slideleft {
+    from { margin-left: 0%; margin-right: 85%;  }
+    to {   margin-left: 15%; margin-right: 15%; }
+  }
+  @keyframes slideleft {
+    from { margin-left: 0%; margin-right: 85%;  }
+    to {   margin-left: 15%; margin-right: 15%; }
+  }
+  @-webkit-keyframes slideright {
+    from { margin-right: 0%; margin-left: 85%;  }
+    to {   margin-right: 15%; margin-left: 15%; }
+  }
+  @keyframes slideright {
+    from { margin-right: 0%; margin-left: 85%;  }
+    to {   margin-right: 15%; margin-left: 15%; }
+  }
+}
+
+/* --------------------------------------------------------------- Just for media centers */
+
+@media tv, screen and (min-width: 1920px) {
+  p {               font-size: 2em; }
+  .headline {       font-size: 4em; }
+  .subhead {        font-size: 2em; letter-spacing: 0em; }
+  .fineprint {      font-size: 1.5em; }
+  .alert {          width: 100%;}
+  .alert .headline {font-size: 3em; }
+  .vert-align {     left: 50%; text-align: left; }
+  #content {        padding: 1em 15% 1em 50%; position: absolute; }
+  #sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 10% 60% 0 0;
+    padding: 0;
+    background-color: transparent;
+  }
+  @-webkit-keyframes slideleft {  from { margin-left: 0%; } to { margin-left: 0%; } }
+  @keyframes slideleft {          from { margin-left: 0%; } to { margin-left: 0%; } }
+  @-webkit-keyframes slideright { from { margin-left: 0%; } to { margin-left: 0%; } }
+  @keyframes slideright {         from { margin-left: 0%; } to { margin-left: 0%; } }
+}
+
+/* --------------------------------------------------------------- Just for printing to paper */
+
+@media print {
+  p {         color: black; font-size: 12pt; line-height: 1.4em; }
+  p a:after { content: " [" attr(href) "] "; }
+  .headline { font-size: 48pt; }
+  .subhead {  font-size: 14pt; letter-spacing: 0em; word-spacing: 0; }
+  #content {  padding: 0 1in 0 1in; page-break-after: always; }
+  #sidebar {
+    padding: 0;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}

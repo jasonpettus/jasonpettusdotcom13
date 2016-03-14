@@ -1,0 +1,20 @@
+Bodyfont typefaces to try:
+  * PT Serif   font-family: 'PT Serif', serif;
+  Domine   font-family: 'Domine', serif;
+  Enriqueta   font-family: 'Enriqueta', serif;
+  Lustria   font-family: 'Lustria', serif;
+  * Ovo   font-family: 'Ovo', serif;
+  Linden Hill   font-family: 'Linden Hill', serif;
+
+Headline typefaces to try:
+  * Fjalla One   font-family: 'Fjalla One', sans-serif;
+  Yanone Kaffeesatz   font-family: 'Yanone Kaffeesatz', sans-serif;
+  Pathway Gothic One   font-family: 'Pathway Gothic One', sans-serif;
+
+Subhead typefaces to try:
+  PT Sans   font-family: 'PT Sans', sans-serif;
+  * Arimo   font-family: 'Arimo', sans-serif;
+  Oxygen   font-family: 'Oxygen', sans-serif;
+  Cabin   font-family: 'Cabin', sans-serif;
+  * Muli   font-family: 'Muli', sans-serif;
+  * Quattrocento Sans   font-family: 'Quattrocento Sans', sans-serif;

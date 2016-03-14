@@ -1,0 +1,45 @@
+    </section>
+
+    <section id="sidebar">
+      <div class="alert one">
+        <span class="headline">I'm a coder and I'm looking for a job</span></br>
+        <span class="subhead"><a href="http://jasonpettus.github.io">jasonpettus.github.io</a></span>
+      </div>
+      <div class="alert two">
+        <span class="headline">I also own a small press</span></br>
+        <span class="subhead"><a href="http://www.cclapcenter.com">cclapcenter.com</a></span>
+      </div>
+      <div class="alert three">
+        <span class="headline">I write a blog just about tech</span></br>
+        <span class="subhead"><a href="http://medium.com/adventures-in-codeland">medium.com/adventures-in-codeland</a></span>
+      </div>
+      <div class="alert four">
+        <span class="headline">And yet another one about pop-culture</span></br>
+        <span class="subhead"><a href="http://pettusthoughts.blogspot.com">pettusthoughts.blogspot.com</a></span>
+      </div>
+      <div class="alert five">
+        <span class="headline">I shoot a lot of photos and videos</span></br>
+        <span class="subhead"><a href="http://flickr.com/jasonpettus">flickr.com/jasonpettus</a></span></br>
+        <span class="subhead"><a href="http://youtube.com/jasonpettus">youtube.com/jasonpettus</a></span>
+      </div>
+      <div class="alert six">
+        <span class="headline">And don't forget my social media</span></br>
+        <span class="subhead"><a href="http://twitter.com/jason_pettus">twitter.com/jason_pettus</a></span></br>
+        <span class="subhead"><a href="http://goodreads.com/jasonpettus">goodreads.com/jasonpettus</a></span></br>
+        <span class="subhead"><a href="http://linkedin.com/in/jasonpettus">linkedin.com/in/jasonpettus</a></span>
+      </div>
+    </section>
+
+    <script src="http://www.jasonpettus.com/scrollMonitor.js"></script>
+    <script src="http://www.jasonpettus.com/scripts.js"></script>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-272385-4");
+      pageTracker._trackPageview();
+    </script>
+
+  </body>
+</html>

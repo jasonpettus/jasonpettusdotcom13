@@ -1,0 +1,24 @@
+        <img class="arrow-blink" src="http://www.jasonpettus.com/archives/more.png" border=0 alt="Scroll down for more" /></br>
+      </div>
+    </section>
+
+    <section id="menu">
+      <span class="subhead">
+        <b><a href="about.html">JasonPettus</a>
+        <a href="http://jasonpettus.github.io">ChicagoUSA</a>
+        <a href="specs.html">v13.0</a></b>
+        <a href="archives.html">Archives</a>
+        <a href="photos.html">Photos</a>
+        <a href="writing.html">Writing</a>
+        <!-- Google CSE Search Box Begins -->
+          <form id="searchbox_002541612840466712721:eemno_tfrqy" action="http://www.google.com/cse">
+            <input type="hidden" name="cx" value="002541612840466712721:eemno_tfrqy" />
+            <input name="q" type="text" size="20" />
+            <input type="hidden" name="cof" value="FORID:0" />
+          </form>
+          <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_002541612840466712721%3Aeemno_tfrqy"></script>
+        <!-- Google CSE Search Box Ends -->
+      </span>
+    </section>
+
+    <section id="content">

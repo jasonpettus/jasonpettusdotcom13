@@ -1,0 +1,41 @@
+<$mt:Include module="StandaloneMod1"$>
+
+<title>Jason Pettus | Archives</title>
+
+<$mt:Include module="StandaloneMod2"$>
+
+<div class="headline">Archives</div>
+
+<$mt:Include module="StandaloneMod3"$>
+
+<p>A more fun way to interact with this site's archives will be coming later this year; but for now here is a quick and dirty list of all old entries. Remember, I've actually been generating content for this website since 1996, but the archives from then until 2005 are sometimes still offline, because of them originally being hosted at Geocities and me still not manually adding them here yet.</p>
+
+<span class="headline">By Category</span>
+
+<mt:SubCategories top="1">
+  <mt:SubCatIsFirst><ul></mt:SubCatIsFirst>
+  <mt:If tag="CategoryCount">
+    <li><a href="<$mt:CategoryArchiveLink$>" title="<$mt:CategoryDescription$>"><mt:CategoryLabel></a>
+      <mt:CategoryCount>
+  <mt:Else>
+    <li><$mt:CategoryLabel$>
+  </mt:If>
+  <$mt:SubCatsRecurse$>
+    </li>
+  <mt:SubCatIsLast></ul></mt:SubCatIsLast>
+</mt:SubCategories>
+
+<span class="headline">By Date</span>
+
+<mt:ArchiveList type="Yearly" sort_order="descend">
+  <mt:ArchiveListHeader><ul></mt:ArchiveListHeader>
+    <li><mt:ArchiveDate format="%Y">
+      <mt:ArchiveList type="Monthly" sort_order="ascend">
+        <mt:ArchiveListHeader><ul></mt:ArchiveListHeader>
+          <li><a href="<mt:ArchiveLink>"><mt:ArchiveDate format="%b"></a> <mt:ArchiveCount></li>
+        <mt:ArchiveListFooter></ul></mt:ArchiveListFooter>
+    </li></mt:ArchiveList>
+  <mt:ArchiveListFooter></ul></mt:ArchiveListFooter>
+</mt:ArchiveList>
+
+<$mt:Include module="StandaloneMod4"$>

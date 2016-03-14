@@ -1,0 +1,16 @@
+<$mt:Include module="StandaloneMod1"$>
+
+<title>Jason Pettus | <$mt:EntryTitle$></title>
+
+<$mt:Include module="StandaloneMod2"$>
+
+<mt:DateHeader><span class="subhead"><$mt:EntryDate format="%x"$></span></mt:DateHeader></br>
+<div class="headline"><$mt:EntryTitle$></div>
+
+<$mt:Include module="StandaloneMod3"$>
+
+<$mt:EntryBody$>
+
+<p class="fineprint">Copyright <$mt:EntryDate format="%Y"$>, Jason Pettus. Released under a <a href="<$mt:BlogCCLicenseURL$>">Creative Commons license</a>; some rights reserved. Contact: <b>ilikejason [at] gmail.com</b>. Powered by <a href="http://www.movabletype.org">Movable Type <$mt:Version$></a>. This site is graciously hosted for free by <a href="http://www.jimisweet.com">Jimi Sweet</a>. Subscribe via RSS: <a href="http://www.jasonpettus.com/index.xml">summaries</a> | <a href="http://www.jasonpettus.com/indexfulltext.xml">full text</a></p>
+
+<$mt:Include module="StandaloneMod4"$>
