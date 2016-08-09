@@ -20,6 +20,7 @@
       <div class="alert five">
         <span class="headline">I shoot a lot of photos and videos</span></br>
         <span class="subhead"><a href="http://flickr.com/jasonpettus">flickr.com/jasonpettus</a></span></br>
+        <span class="subhead"><a href="http://instagram.com/jasonpettus">instagram.com/jasonpettus</a></span></br>
         <span class="subhead"><a href="http://youtube.com/jasonpettus">youtube.com/jasonpettus</a></span>
       </div>
       <div class="alert six">

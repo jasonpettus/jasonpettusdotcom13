@@ -1,0 +1,62 @@
+$orange: #ff9900;
+$umber: $orange / 2;
+$lime: #999900;
+$green: $lime / 2;
+$pink: #ff00ff;
+$purple: $pink / 2;
+$white: #ffffff;
+$offwhite: $white / 1.25;
+$charcoal: $white / 5;
+
+$base-font-size: 1em;
+$base-line-height: 1.66em;
+
+%uppercase { text-transform: uppercase; }
+%left-text { text-align: left; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+p {
+  color: $charcoal;
+  font: 400 $base-font-size 'PT Serif', serif;
+  line-height: $base-line-height;
+  @extend %left-text;
+}
+
+b { font-weight: 700; }
+
+a:link {    color: $umber; text-decoration: underline; }
+a:visited { color: $umber; }
+a:hover {   color: $orange; }
+a:active {  color: $white; }
+
+ul { @extend %left-text; }
+
+form { display: inline; }
+
+.type_headline {
+  font: 700 $base-font-size*4 'Fjalla One', sans-serif;
+  @extend %uppercase;
+}
+
+.type_subhead {
+  font: 400 $base-font-size 'Quattrocento Sans', sans-serif;
+  @extend %uppercase;
+  letter-spacing: 0.3em;
+  word-spacing: 0.5em;
+}
+
+.type_fineprint {
+  color: $offwhite;
+  background-color: $green;
+  font-size: $base-font-size*0.75;
+  padding: 1em;
+}
+
