@@ -84,16 +84,13 @@ form { display: inline; }
   z-index: -1;
 }
 
-.vert-align {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+.vert-align { padding: 30vw 20vh; }
+
+.scroll-line {
+  height: 2px;
+  margin-bottom: -2px;
+  background: #ff9900;
+  width: 0%;
 }
 
 #menu {
@@ -116,6 +113,15 @@ form { display: inline; }
 
 #content { background-color: #cccccc; padding: 1em 25% 1em 25%; }
 #sidebar { background-color: #cccccc; }
+
+.full-width-image {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
 
 .alert {           margin: auto; width: 50%; padding: 0.5em; }
 .alert .headline { font-size: 2em; }
@@ -206,9 +212,10 @@ form { display: inline; }
   .subhead {        letter-spacing: 0em; }
   .fineprint {      font-size: 0.8em; }
   .alert .headline {font-size: 1.5em; }
+  .vert-align {     padding: 30vw 5vh; }
   #content {        padding: 1em; }
   .alert {          width: auto; }
-  .bg {             background: url("archives/skylinephone.jpg") no-repeat center center;}
+  .bg {             background: url("archives/skylinephone.jpg") no-repeat cover center center;}
   .arrow-blink {    width: 50%; }
   @-webkit-keyframes slideleft {  from { margin-left: 0%; } to { margin-left: 0%; } }
   @keyframes slideleft {          from { margin-left: 0%; } to { margin-left: 0%; } }
@@ -229,8 +236,10 @@ form { display: inline; }
 /* --------------------------------------------------------------- Just for tablets */
 
 @media screen and (min-width: 737px) and (max-width: 1024px) {
-  #content { padding: 1em 15% 1em 15%; }
-  .alert {   width: 70%;}
+  #content {    padding: 1em 15% 1em 15%; }
+  .bg {         background: url("archives/skylinephone.jpg") no-repeat cover center center;}
+  .vert-align { padding: 30vw 5vh; }
+  .alert {      width: 70%; }
   @-webkit-keyframes slideleft {
     from { margin-left: 0%; margin-right: 85%;  }
     to {   margin-left: 15%; margin-right: 15%; }
@@ -258,7 +267,7 @@ form { display: inline; }
   .fineprint {      font-size: 1.5em; }
   .alert {          width: 100%;}
   .alert .headline {font-size: 3em; }
-  .vert-align {     left: 50%; text-align: left; }
+  .vert-align {     padding: 30vh 5vw 30vh 50vw; text-align: left; }
   #content {        padding: 1em 15% 1em 50%; position: absolute; }
   #sidebar {
     position: fixed;
